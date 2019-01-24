@@ -1,0 +1,179 @@
+/* Universal Styles */
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: .9;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  z-index: 1;
+  background-color: black;
+}
+
+a {
+  color: seashell;
+}
+
+nav {
+  display: inline-flex;
+  position: fixed;
+  padding: 20px;
+  justify-content: flex-end;
+  align-content: center;
+  align-self: center;
+  right: 0;
+  top: 0;
+
+}
+
+nav span {
+  display: inline-flex;
+  align-content: space-between;
+  margin: 10px;
+  height: 13px;
+  text-decoration: underline;
+}
+
+/* Header Styles */
+
+header img {
+  display: flex;
+  height: 50px;
+  padding-left: 10px;
+}
+
+/*Main Content Styles */
+
+.top-section {
+  display: flex;
+  top: 70px;
+  height: 700px;
+  flex: 1240px 1 1;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-image: url('./images/mission-background.jpg');
+  background-size: cover;
+  z-index: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.our-mission {
+
+  display: block;
+  width 100%;
+  align-items: center;
+  align-content: center;
+  background-color: black;
+  z-index: 1;
+
+}
+
+.our-mission h2 h4 {
+  align-items: center;
+  justify-content: center;
+}
+
+.middle-header {
+  display: block;
+  width: 100%;
+}
+
+.middle-section {
+  display: inline-flex;
+  width: 1000px;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.image-container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 300px;
+  height: 280px;
+
+}
+
+.image-container img {
+  width: 300px;
+  height: 200px;
+}
+
+.middle-text {
+  width: 300px;
+  padding: 10px;
+  justify-content: center;
+  align-content: center;
+}
+
+
+.bottom-section {
+  display: flex;
+  height: 500px;
+  flex: 1240px 1 1;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-image: url('./images/locations-background.jpg');
+  background-size: cover;
+  z-index: 0;
+  justify-content: center;
+  align-content: space-around;
+  align-items: center;
+}
+
+.location-container {
+  display: block;
+}
+
+.location {
+  display: block;
+}
+
+.location h2 {
+  display: block;
+}
+
+.location-section {
+  display: flex;
+}
+
+.location-box {
+  opacity: 1;
+  width: 300px;
+  display: block;
+  background-color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+
+
+/* Footer Styles */
+
+footer {
+  height 100px;
+  bottom: 0px;
+  display: block;
+  width: 100%;
+  padding-left: 20px;
+  top: 95%;
+  background-color: black;
+}
+
+.footer-contact {
+  height: 200px;
+}
+
+footer span {
+  display: flex;
+}
